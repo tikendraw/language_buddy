@@ -1,0 +1,25 @@
+[project]
+name = "language-helper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "icecream>=2.1.4",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.23",
+    "langchain-google-genai>=2.1.2",
+    "langchain-litellm>=0.1.4",
+    "langgraph>=0.3.25",
+    "langsmith>=0.3.24",
+    "litellm>=1.65.4.post1",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "pydotenv>=0.0.7",
+    "scikit-learn>=1.6.1",
+    "streamlit>=1.44.1",
+    "uvicorn[standard]>=0.34.0",
+    "websocket-client>=1.8.0",
+]
